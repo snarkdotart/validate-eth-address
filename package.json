@@ -1,0 +1,29 @@
+{
+  "private": "true",
+  "dependencies": {
+    "fast-csv": "^4.3.6",
+    "web3": "^1.6.0"
+  },
+  "name": "validate-eth-address",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sergey-Beltsin/validate-eth-address.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sergey-Beltsin/validate-eth-address/issues"
+  },
+  "homepage": "https://github.com/Sergey-Beltsin/validate-eth-address#readme",
+  "description": ""
+}
