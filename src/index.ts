@@ -40,6 +40,8 @@ rl.question("Write .csv filename here (without extension): ", (filename: string)
 
   const handleEnd = (): void => {
     csv.writeToPath(`${__dirname}/${filename}-formatted.csv`, newWhitelist);
+
+    console.log('All done!');
   };
 
   const handleTransformRow = async (row: IWhitelistItem): Promise<void> => {

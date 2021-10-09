@@ -96,9 +96,10 @@
     /* Completeness */
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true,                                 /* Skip type checking all .d.ts files. */
-    "rootDir": "./src",
-    "outDir": "./build",
-    "moduleResolution": "Node"
+    "rootDir": "src",
+    "outDir": "build",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true
   },
   "exclude": [
     "node_modules"
